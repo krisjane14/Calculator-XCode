@@ -15,7 +15,6 @@ int main(int argc, const char * argv[]) {
         Calculator_Brain *testing = [[Calculator_Brain alloc]init];
         [testing pushItem:5];
         [testing pushItem:45];
-        //double result = [testing calculate:@"*"];
                    
         
         NSLog(@"%f", [testing calculate:@"/"]);
